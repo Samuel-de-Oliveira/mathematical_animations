@@ -9,7 +9,7 @@ class Enunciado(Scene):
 
         # Enunciado
         enun = Tex(
-            f'Quantos são os parez $(m, n)$ \\\\ que satifazem a equação $7n - 3mn = 3$?'
+            f'Quantos são os pares $(m, n)$ \\\\ que satifazem a equação $7n - 3mn = 3$?'
         )
 
         self.play(Write(titulo))
